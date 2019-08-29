@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Burbank Big Regular";
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.eot");
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.eot?#iefix") format("embedded-opentype");
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.woff2") format("woff2");
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.woff") format("woff");
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.ttf") format("truetype");
+    src: url("//db.onlinewebfonts.com/t/ce366fe567377fc5597ebfa52b38073f.svg#Burbank Big Regular") format("svg");
+}
+
+body {
+    font-family: "Burbank Big Regular", Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+td {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0 0 10px 5px;
+}
+
+button#play {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px 11px 4px 10px;
+    margin-top: 10px;
+}
+
+button#attack {
+    border: 3px solid red;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+button#attack:hover {
+    color: white;
+    background-color: red;
+}
+
+button#defense {
+    border: 3px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+button#defense:hover {
+    color: white;
+    background-color: green;
+}
+
+button#replay {
+    font-size: 35px;
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+    cursor: pointer;
+    padding: 13px 12px 4px 12px;
+    margin-top: 15px;
+}
+
+button > img {
+    margin-bottom: 7px;
+    margin-right: 15px;
+}
+
+.nameWeapon1, .nameWeapon2 {
+    margin: 5px 0 0 0;
+}
+
+.infoPlayer {
+    margin-top: 50px;
+}
+
+.infoWeapon {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.infoHealth {
+    margin-top: 75px;
+}
+
+.gris {
+    background-color: rgb(230, 230, 230);
+}
+
+.wall {
+    background-color: black;
+}
+
+.wall:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+.access {
+    background-color: rgb(170, 35, 35);
+}
+
+.access:hover {
+    background-color: rgb(200, 65, 65);
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px;
+}
+
+.game {
+    font-size: 40px;
+    margin: auto;
+    float: none;
+    width: auto;
+}
+
+.medal {
+    margin-top: 55px;
+}
+
+.progress {
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#historic {
+    margin-top: 35px;
+}
+
+#game {
+    display: none;
+}
+
+#hidden1, #hidden2 {
+    display: none;
+}
+
+#actionP1, #actionP2 {
+    display: none;
+}
+
+#replay {
+    display: none;
+}
+
+#replay:hover {
+    padding: 14px 13px 5px 13px;
+    margin-top: 14px;
+}
